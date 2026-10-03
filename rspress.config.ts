@@ -1,5 +1,6 @@
 import * as path from 'node:path';
 import { defineConfig } from '@rspress/core';
+import mermaid from 'rspress-plugin-mermaid';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
@@ -9,6 +10,7 @@ export default defineConfig({
     '按照 Agent 的架构、构建、运行、治理和调优应用生命周期，总结企业级 Agent 落地实践。',
   logoText: 'AI Agent HandBook',
   base: '/ai-agent-handbook/',
+  plugins: [mermaid()],
   themeConfig: {
     socialLinks: [
       {
