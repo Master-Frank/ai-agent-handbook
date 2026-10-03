@@ -98,7 +98,7 @@ Agent 输出的是结构化协议数据，而不是可执行的 HTML / JavaScrip
 :::
 Spec
 
-```mysql
+```json
 {
   "root": "insight",
   "elements": {
