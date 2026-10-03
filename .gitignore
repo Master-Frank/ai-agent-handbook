@@ -1,7 +1,18 @@
+# Local
 .DS_Store
+*.local
+*.log*
+*.impl
+
+# Dist
+node_modules
+dist/
+doc_build/
+.rspress/
+
+# IDE
 .idea
 .vscode
 .claude
 .cursor
 .codex
-*.impl

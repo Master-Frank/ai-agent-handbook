@@ -1,0 +1,47 @@
+[
+  {
+    "text": "调研报告",
+    "link": "/2026-agent-survey-report",
+    "activeMatch": "/2026-agent-survey-report"
+  },
+  {
+    "text": "前言",
+    "link": "/00-preface/00-preface",
+    "activeMatch": "/00-preface/"
+  },
+  {
+    "text": "架构篇",
+    "link": "/01-architecture/",
+    "activeMatch": "/01-architecture/"
+  },
+  {
+    "text": "构建篇",
+    "link": "/02-build/",
+    "activeMatch": "/02-build/"
+  },
+  {
+    "text": "运行篇",
+    "link": "/03-run/",
+    "activeMatch": "/03-run/"
+  },
+  {
+    "text": "治理篇",
+    "link": "/04-governance/",
+    "activeMatch": "/04-governance/"
+  },
+  {
+    "text": "调优篇",
+    "link": "/05-optimization/",
+    "activeMatch": "/05-optimization/"
+  },
+  {
+    "text": "实践篇",
+    "link": "/06-case-study/",
+    "activeMatch": "/06-case-study/"
+  },
+  {
+    "text": "总结",
+    "link": "/07-conclusion/第 30 章 从 Agentic Application 到 Agentic OS",
+    "activeMatch": "/07-conclusion/"
+  }
+]

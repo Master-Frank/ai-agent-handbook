@@ -1,0 +1,31 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "实践篇导读"
+  },
+  {
+    "type": "dir",
+    "name": "第25章 研发效能",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "第26章 设计工程",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "第27章 运维、安全与企业IT",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "第28章 客户、销售与运营",
+    "collapsed": true
+  },
+  {
+    "type": "file",
+    "name": "第 29 章 GOAI Agent Infra 赛道：多 Agent 协同的前沿实践探索"
+  }
+]

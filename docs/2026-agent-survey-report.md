@@ -34,13 +34,13 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 是否要做 Agent 已不再是议题，明确表示暂无开发计划的受访者从去年的22%降至 15%，正在调研和计划开发的从去年的47%降至25%，已开发完成或开发中的合计 46%，去年这一数据是36%，但真正部署到生产环节的只有 18%。
 
-![image](assets/imgs/2026-agent-developer-survey/image-001.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-001.png)
 
 ### 2. Agent 策略受阻的不是意愿，而是工程能力储备
 
 上线率的差距普遍大于开发率的差距。上海的大型企业已上线率 45%，小微企业 16%；深圳则是 38% 和 17%。差异并不在是否愿意投入，而是是否具备持续演进 Agent 的工程能力，包括 Agent 的组织和协作、治理、优化和沉淀等。
 
-![image](assets/imgs/2026-agent-developer-survey/image-002.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-002.png)
 
 > 我们在白皮书架构篇《第 1 章　AI 原生应用的新阶段》引入了智能体 L1—L4 成熟度的分级。 L1 是辅助生成，L2 是受控自动化，L3 Agentic Execution 仅在部分场景成立，L4 Managed & Optimizing 尚属少数。白皮书构建、运行、治理、调优，本质上都在回答如何从 L2 演进到 L3、L4。
 
@@ -50,7 +50,7 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 以单 Agent 为主要架构的企业占 40%，开始引入多 Agent 为的企业有 42%，自主度是一个可调参数，混合形态会长期存在。这份数据支持白皮书在第 1 章与第 12 章提出的判断：Chat/RAG、Workflow、Copilot、Agent 与 Managed Agentic Application 在同一家企业内部往往同时存在，选择取决于任务的确定性程度与容错空间，而非技术新旧。此外，15%的企业把"人在回路"（Human-in-the-Loop，HITL，指关键步骤必须由人确认后才继续执行）作为 Agent 落地生产环境的架构原则，而非仅当作附加的审批开关。
 
-![image](assets/imgs/2026-agent-developer-survey/image-003.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-003.png)
 
 > 白皮书架构篇《第 1 章　AI 原生应用的新阶段》系统总结了当前阶段 Agent 的形态、特点和发展趋势。
 
@@ -60,7 +60,7 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 **图 4　多 Agent 的主要挑战与最期待补齐的能力**
 
-![image](assets/imgs/2026-agent-developer-survey/image-004.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-004.png)
 
 > 白皮书构建篇《第 4 章 任务：编排、长程推进与协作流转》、《第 5 章 信息：上下文、状态与可复用能力资产》、《第 6 章 行动：受控执行、验证反馈与交付准备》，并且运行篇中《第 8 章 Agent 状态存储与语义资产》，回应的都是这三大痛点。此外，端侧与开源底座的高诉求也解释了第 7、12 章讨论 Runtime、沙箱与部署拓扑的必要性。
 
@@ -70,7 +70,7 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Cursor、Qoder 等 Coding 工具的企业占 57%，使用通用 Agent 框架的占 78%，还有近四成企业同时在用编程 Agent 与通用 Agent 框架。市场尚未形成寡头格局，供应商呈现碎片化，可迁移的工程抽象比押注某个厂商更有价值。当然，随着办公 Agent 的普及，编程 Agent 和通用 Agent 的边界越加模糊。
 
-![image](assets/imgs/2026-agent-developer-survey/image-005.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-005.png)
 
 *   Coding 是目前唯一实现规模化落地的付费场景。原因不难理解：反馈信号明确（能否编译、测试是否通过）、环境边界清晰（代码仓库与工作区）、错误代价可控（可回滚）。这三项恰好是 Agent 稳定运行的前提条件。
     
@@ -83,7 +83,7 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 在落地场景上，最广泛的是员工效能、代码工程、数据分析。将 Agent 引入企业核心业务流程的占比不到40%，比例明显略低。这一排序与第一章的上线率自洽：Agent 优先进入可人工兜底的场景，进入核心业务流程这些严肃场景，则需要更完整的治理配套。
 
-![image](assets/imgs/2026-agent-developer-survey/image-006.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-006.png)
 
 > 白皮书构建篇以 Harness 作为核心抽象，把 Skill、Memory、Knowledge、Tool 作为可组合能力分别成章，是为了给出一套不绑定具体框架的构建范式。在选型尚未收敛的市场条件下，可迁移的抽象比选定框架更具实际价值。
 
@@ -95,13 +95,13 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 > 白皮书运行篇《第 8 章　Agent 状态存储与语义资产》将讨论持久化、向量索引与检索，为记忆落地提供底座；治理篇《第 15 章　AI 资产的发现与管理》讨论如何对工具描述、版本与按需发现的组织方式。
 
-![image](assets/imgs/2026-agent-developer-survey/image-007.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-007.png)
 
 ### 2. MCP 差的是企业级配套，不是协议理解
 
 已经关注或已经落地 MCP 的企业合计 37%，而真正完成企业内私有部署的只有 9%。要在企业内真正跑起 MCP，需要私有注册中心、统一身份与鉴权、版本与灰度管理、审计留痕，以及与网关的集成，这些都不是协议规范本身提供的。同时有 28% 的受访者明确提出 MCP 服务管理与注册中心的需求，这一比例与已落地比例接近，说明需求正从认知转向工程实施。
 
-![image](assets/imgs/2026-agent-developer-survey/image-008.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-008.png)
 
 > 白皮书治理篇《第 15 章　AI 资产的发现与管理》给出 Agentic Resource Registry，把 Prompt、Skill、MCP Server、Agent 纳入统一注册、版本与按需发现。《第 9 章　AI 网关与统一流量治理》中将阐述 MCP 管控的落地实践。
 
@@ -115,7 +115,7 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 在可观测能力的诉求里，成本归因（50%）排位仅次于全链路追踪，高于审计合规与语义质量监控。多数企业 Token 用量还不算大，但已经在为成本的可见性与可分摊做准备。这更接近一种预防性诉求，在规模上来之前先建立成本的观测与约束能力，而不是等账单失控后再补。
 
-![image](assets/imgs/2026-agent-developer-survey/image-009.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-009.png)
 
 > 白皮书运行篇将 《Agent 运行时与沙箱》、《Agent 异步任务与自动化流程》、《Agent 分布式通信与消息治理》、《Agent 状态存储与语义资产》、《AI 网关与统一流量治理》分别成章，并组成了运行篇。其中把 AI 网关 从流量入口扩展为统一治理入口，集中承接工具注册与检索、参数校验、模型路由、熔断重试、链路追踪与成本标签，正是对这组需求的直接回应。
 
@@ -131,7 +131,7 @@ AI Coding 是被验证的商业市场，企业采购 Claude Code、Codex、Curso
 
 使用了评估手段的企业中，任务成功率达 70% 以上，是没有评估体系的企业的约两倍；而在已上线并持续迭代的企业里，这一比例达 84%。三者是相互关联的：评估能力支撑迭代，迭代提升可靠性，可靠性才使持续进行评估成为可能。 反过来，缺乏评估的团队既无法定位问题，也无法证明改动有效，容易长期停在试点阶段。这与第一章"近一半在开发、仅约五分之一上线"的分布形成呼应。
 
-![image](assets/imgs/2026-agent-developer-survey/image-010.png)
+![image](./assets/imgs/2026-agent-developer-survey/image-010.png)
 
 > 白皮书专门设置了调优篇，从模型调优和智能体调优详细阐述了完整的调优的方法论和相关实践。其中，智能体调优业内缺少相关标准，我们从轨迹数据、运行时数据处理、黄金数据集构建、基于 Badcase 的优化、受控自进化等。
 

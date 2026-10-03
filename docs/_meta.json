@@ -1,0 +1,54 @@
+[
+  {
+    "type": "file",
+    "name": "2026-agent-survey-report",
+    "label": "2026 Agent 开发者调研报告"
+  },
+  {
+    "type": "dir",
+    "name": "00-preface",
+    "label": "前言"
+  },
+  {
+    "type": "dir-section-header",
+    "name": "01-architecture",
+    "label": "架构篇",
+    "collapsed": false
+  },
+  {
+    "type": "dir-section-header",
+    "name": "02-build",
+    "label": "构建篇",
+    "collapsed": true
+  },
+  {
+    "type": "dir-section-header",
+    "name": "03-run",
+    "label": "运行篇",
+    "collapsed": true
+  },
+  {
+    "type": "dir-section-header",
+    "name": "04-governance",
+    "label": "治理篇",
+    "collapsed": true
+  },
+  {
+    "type": "dir-section-header",
+    "name": "05-optimization",
+    "label": "调优篇",
+    "collapsed": true
+  },
+  {
+    "type": "dir-section-header",
+    "name": "06-case-study",
+    "label": "实践篇",
+    "collapsed": true
+  },
+  {
+    "type": "dir-section-header",
+    "name": "07-conclusion",
+    "label": "总结与展望篇",
+    "collapsed": true
+  }
+]
